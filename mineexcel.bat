@@ -1,12 +1,13 @@
 @echo off
 title Mineexcel
-%USERPROFILE%
-cd %USERPROFILE%\mineexecl
+%SYSTEMDRIVE%
+cd %USERPROFILE%\mineexcel
 goto check
 
 :check
 echo checking...
-if exist "%USERPROFILE%\mineexecl\new.xlsm" (goto start) else (md worlds & echo List of worlds >> %USERPROFILE%\mineexcel\list.cfg & echo Downloading resource...(99.9KB) & curl https://raw.githubusercontent.com/AvianJay/mineexcel/main/new.xlsm --output new.xlsm & Downloaded.Ready To Check. & goto check)
+if exist "%USERPROFILE%\mineexcel\new.xlsm" (goto start) else (md worlds & echo List of worlds >> %USERPROFILE%\mineexcel\list.cfg & echo Downloading resource...(99.9KB) & curl https://raw.githubusercontent.com/AvianJay/mineexcel/main/new.xlsm --output new.xlsm & echo Downloaded.Ready To Check.)
+goto check
 
 :start
 cls
