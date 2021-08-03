@@ -1,5 +1,6 @@
 @echo off
 title Mineexcel
+%USERPROFILE%
 cd %USERPROFILE%\mineexecl
 goto check
 
