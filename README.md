@@ -6,7 +6,7 @@ You need to install microsoft excel
 Click <a href="https://github.com/AvianJay/mineexcel/releases/download/v.1.0/MineexcelInstaller.bat">here</a> to download installer.
 or
 Run This:
-<pre>curl https://github.com/AvianJay/mineexcel/releases/download/v.1.0/MineexcelInstaller.bat --output meinst.bat & meinst & del meinst.bat</pre>
+<pre>curl https://raw.githubusercontent.com/AvianJay/mineexcel/main/meinst.bat --output meinst.bat & meinst & del meinst.bat</pre>
 on cmd
 # uninstall
 Run This:
