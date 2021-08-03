@@ -25,11 +25,11 @@ goto start
 set /p name="World Name:"
 copy %USERPROFILE%\mineexcel\new.xlsm %USERPROFILE%\mineexcel\worlds\%name%.xlsm
 echo %name% >> %USERPROFILE%\mineexcel\list.cfg
-"%USERPROFILE%\mineexcel\worlds\%name%.xlsm"
+start "%USERPROFILE%\mineexcel\worlds\%name%.xlsm"
 exit
 
 :load
 type %USERPROFILE%\mineexcel\list.cfg
 set /p name="Enter A World:"
-"%USERPROFILE%\mineexcel\worlds\%name%.xlsm"
+start "%USERPROFILE%\mineexcel\worlds\%name%.xlsm"
 exit
