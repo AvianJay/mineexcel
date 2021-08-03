@@ -36,6 +36,3 @@ echo echo Uninstalled.Press Any Key To Exit. >> uninstall.bat
 echo pause >> uninstall.bat
 echo exit >> uninstall.bat
 echo Installed.
-echo Press Any Key To exit Installer.
-pause > nul
-exit
